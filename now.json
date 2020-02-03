@@ -1,0 +1,20 @@
+{
+    "version": 2,
+    "name": "kawaii",
+    "builds": [
+        {
+            "src": "server.js",
+            "use": "@now/node"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/",
+            "dest": "server.js"
+        },
+        {
+            "src": "/webhook",
+            "dest": "server.js"
+        }
+    ]
+}

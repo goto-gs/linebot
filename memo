@@ -1,0 +1,23 @@
+参考リンク
+１時間のハンズオンでLINEbotを作る
+https://qiita.com/n0bisuke/items/ceaa09ef8898bee8369d
+
+nodebrewのインストール
+https://qiita.com/mame_daifuku/items/373daf5f49ee585ea498
+
+いるもの
+・LINEのデベロッパーアカウント（オフィシャルアカウントマネージャも使う）
+・メールアドレス（LINEのアカウントあるならアドレスもあるよね？？）
+・nowのアカウント
+
+
+使ったもの
+・LINEMessagingAPI
+・nodebrew (とりあえず最新版でやった)
+・line-bot.SDK（node-module）
+・ngrok（webhookに使う）
+・now（デプロイ用のツール。Node.js向けPaas）
+
+作業時間：２h
+・送られてきたメッセージに合わせて単純な分岐を返すまで。
+
